@@ -1,0 +1,33 @@
+.tree-select-wrapper {
+  width: 500px;
+  margin: 0 auto;
+
+  .node {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid darkgray;
+    font-size: 20px;
+    .open {
+      cursor: pointer;
+    }
+
+    .label {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+  .selected-nodes-wrapper {
+    padding: 10px;
+    margin-top: 10px;
+    .selected-nodes {
+      display: flex;
+    }
+    .selected-node {
+      margin-top: 10px;
+      font-weight: bold;
+      padding: {
+        right: 5px;
+      }
+    }
+  }
+}
